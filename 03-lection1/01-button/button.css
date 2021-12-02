@@ -29,9 +29,8 @@
 }
 
 .button_primary:disabled {
-    background: #4263EB;
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none;
 }
 
 .button_secondary {
@@ -43,9 +42,8 @@
 }
 
 .button_secondary:disabled {
-    background: #7048E8;
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none;
 }
 
 .button_alternate {
@@ -55,12 +53,12 @@
 }
 
 .button_alternate:hover {
-    border: 1px solid #212429;
+    border-color: #212429;
 }
 
 .button_alternate:disabled {
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none;
     border: 1px solid #ACB5BD;
 }
 

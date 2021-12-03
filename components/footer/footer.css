@@ -1,11 +1,21 @@
 .footer {
-
+    color: var(--black);
 }
 
 .footer__title {
-
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 
 .footer__description {
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
 }

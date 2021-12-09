@@ -1,0 +1,83 @@
+.skeleton {
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.skeleton__header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.skeleton__avatar {
+
+}
+
+.skeleton__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 100%;
+    padding-left: 15px;
+}
+
+.skeleton__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.skeleton__line {
+    background: linear-gradient(92.51deg, var(--grey-2) 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, var(--grey-2) 102.52%);
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.skeleton__line_width_10 {
+    width: 10%;
+}
+
+.skeleton__line_width_20 {
+    width: 20%;
+}
+
+.skeleton__line_width_30 {
+    width: 30%;
+}
+
+.skeleton__line_width_40 {
+    width: 40%;
+}
+
+.skeleton__line_width_50 {
+    width: 50%;
+}
+
+.skeleton__line_width_60 {
+    width: 60%;
+}
+
+.skeleton__line_width_70 {
+    width: 70%;
+}
+
+.skeleton__line_width_80 {
+    width: 80%;
+}
+
+.skeleton__line_width_90 {
+    width: 90%;
+}
+
+.skeleton__line:last-child {
+    margin-bottom: 0;
+}
+
+.skeleton__circle {
+    border-radius: 50%;
+    background: var(--grey-2);
+    width: 64px;
+    height: 64px;
+}

@@ -18,5 +18,5 @@
 .preview__card {
     display: flex;
     flex-direction: column;
-    width: 31%;
+    width: calc(33.33% - 30px)
 }

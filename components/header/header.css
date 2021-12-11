@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.header_bg_grey {
+.header_dark_bg {
     background: var(--grey-1);
 }
 

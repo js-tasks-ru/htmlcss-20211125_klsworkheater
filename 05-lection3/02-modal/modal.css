@@ -1,7 +1,6 @@
 .modal {
     display: none;
-    background: var(--grey-6);
-    opacity: 0.5;
+    background: rgba(196, 196, 196, .5);
     position: fixed;
     top: 0;
     right: 0;

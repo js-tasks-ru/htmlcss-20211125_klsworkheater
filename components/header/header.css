@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.header_dark_bg {
+    background: var(--grey-1);
+}
+
 .header__title {
     font-family: 'Inter', sans-serif;
     font-style: normal;

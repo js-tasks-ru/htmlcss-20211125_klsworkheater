@@ -1,0 +1,76 @@
+.calendar {
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    padding: 28px 36px;
+}
+
+.calendar__header {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--blue-2);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calendar__inner {
+    position: relative;
+    padding-bottom: 100%;
+}
+
+.calendar__body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar__day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--grey-7);
+    text-align: center;
+}
+
+.calendar__date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--blue-2);
+    /*padding: 8px 11px;*/
+}
+
+.calendar__date_between {
+    background: var(--blue-3);
+    color: var(--white);
+}
+
+.calendar__date_start {
+    background: var(--blue-1);
+    color: var(--white);
+}
+
+.calendar__date_end {
+    background: var(--blue-1);
+    color: var(--white);
+}

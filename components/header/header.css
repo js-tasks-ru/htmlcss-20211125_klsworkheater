@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+.header_dark_bg {
+    background: var(--grey-1);
+}
+
+.header__inner {
+    display: flex;
+}
+
+.header__logo {
+    line-height: 0;
+}
+
+.header__icon {
+    width: 32px;
+    height: 32px;
+}
+
 .header__title {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -11,4 +28,10 @@
     font-size: 50px;
     line-height: 64px;
     color: var(--black);
+}
+
+@media screen and (max-width: 768px) {
+    .header__inner {
+        justify-content: center;
+    }
 }

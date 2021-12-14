@@ -2,48 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page</title>
     <link rel="stylesheet" href="../assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
 </head>
 <body class="page">
-
-    <header class="header header_dark_bg">
-        <div class="container">
-            <h1>header</h1>
-        </div>
-    </header>
-
-    <main class="main">
-        <div class="container main__container">
-            <div class="menu">
-                <div class="menu__header">
-                    Components
-                </div>
-
-                <nav class="menu__body">
-                    <a href="#" class="menu__item">Modal</a>
-                    <a href="#" class="menu__item">Tooltip</a>
-                    <a href="#" class="menu__item">Avatar</a>
-                    <a href="#" class="menu__item">Calendar</a>
-                    <a href="#" class="menu__item">Histogram</a>
-                    <a href="#" class="menu__item menu__item_active">Custom form elements</a>
-                    <a href="#" class="menu__item">Main page</a>
-                </nav>
-
-            </div>
-            <div class="component">
-                <div class="component__header">
-                    Modal
-                </div>
+<header class="header header_dark_bg">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <svg class="header__icon"><use xlink:href="#rectangle-1"></use></svg>
+                <svg class="header__icon"><use xlink:href="#circle"></use></svg>
+                <svg class="header__icon"><use xlink:href="#rectangle-2"></use></svg>
             </div>
         </div>
-    </main>
+    </div>
+</header>
 
-    <footer class="footer footer_dark_bg">
-        <div class="container">
-            <p class="footer__text">Reusable component library</p>
+<main class="main">
+    <div class="container main__container">
+        <div class="menu main__menu">
+            <div class="menu__header">
+                Components
+            </div>
+
+            <nav class="menu__body">
+                <a href="#" class="menu__item">Modal</a>
+                <a href="#" class="menu__item">Tooltip</a>
+                <a href="#" class="menu__item">Avatar</a>
+                <a href="#" class="menu__item">Calendar</a>
+                <a href="#" class="menu__item">Histogram</a>
+                <a href="#" class="menu__item menu__item_active">Custom form elements</a>
+                <a href="#" class="menu__item">Main page</a>
+            </nav>
+
         </div>
-    </footer>
+        <div class="component">
+            <div class="component__header">
+                Modal
+            </div>
+            <div class="component__body">
+            </div>
+        </div>
+    </div>
+</main>
 
+<footer class="footer footer_dark_bg page__footer">
+    <div class="container">
+        <p class="footer__text">Reusable component library</p>
+    </div>
+</footer>
+
+<svg style="display: none">
+    <defs>
+        <symbol id="rectangle-1">
+            <rect width="32" height="32" fill="#212429"/>
+        </symbol>
+
+        <symbol id="circle">
+            <rect width="32" height="32" rx="16" fill="#212429"/>
+        </symbol>
+
+        <symbol id="rectangle-2">
+            <path d="M0 0L32 32H0V0Z" fill="#212429"/>
+        </symbol>
+    </defs>
+</svg>
 </body>
 </html>

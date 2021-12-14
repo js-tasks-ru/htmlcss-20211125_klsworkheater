@@ -1,5 +1,6 @@
 .main {
     background: var(--grey-1);
+    padding-top: 64px;
 }
 
 .main__container {
@@ -7,4 +8,20 @@
     align-items: start;
     grid-template-columns: 285px 1fr;
     height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .main {
+        padding-top: 0;
+    }
+
+    .main__container {
+        grid-template-columns: 1fr;
+        align-items: stretch;
+    }
+
+    .main__menu {
+        display: none;
+    }
+
 }

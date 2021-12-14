@@ -1,0 +1,10 @@
+.main {
+    background: var(--grey-1);
+}
+
+.main__container {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 285px 1fr;
+    height: 100%;
+}

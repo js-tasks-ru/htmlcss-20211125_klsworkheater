@@ -13,3 +13,14 @@
     line-height: 38px;
     color: var(--grey-4);
 }
+
+.component__body {
+    margin-top: 32px
+}
+
+@media screen and (max-width: 768px) {
+    .main__component {
+        border-radius: 0;
+        padding: 32px 16px;
+    }
+}

@@ -4,8 +4,95 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
+        <link rel="stylesheet" href="./form.css">
     </head>
     <body>
+    <div class="form">
+        <legend class="form__legend form__control">TOGGLE</legend>
 
+        <label class="form__control toggle">
+            <input type="checkbox" class="toggle__input">
+            <span class="toggle__inner">
+                <span class="toggle__box">
+                    <span class="toggle__state"></span>
+                </span>
+                <span class="toggle__label">
+                off
+            </span>
+            </span>
+        </label>
+
+        <label class="form__control toggle">
+            <input type="checkbox" class="toggle__input" checked>
+            <span class="toggle__inner">
+                <span class="toggle__box">
+                    <span class="toggle__state"></span>
+                </span>
+                <span class="toggle__label">
+                on
+            </span>
+            </span>
+        </label>
+
+        <label class="form__control toggle">
+            <input type="checkbox" class="toggle__input" disabled>
+            <span class="toggle__inner">
+                <span class="toggle__box">
+                    <span class="toggle__state"></span>
+                </span>
+                <span class="toggle__label">
+                Disabled
+            </span>
+            </span>
+        </label>
+
+        <label class="form__control toggle">
+            <input type="checkbox" class="toggle__input" disabled checked>
+            <span class="toggle__inner">
+                <span class="toggle__box">
+                    <span class="toggle__state"></span>
+                </span>
+                <span class="toggle__label">
+                    Checked disabled
+                </span>
+            </span>
+        </label>
+
+        <!--<label class="form__control radio">-->
+            <!--<input name="radio" type="radio" class="radio__input" checked>-->
+            <!--<span class="radio__inner">-->
+                    <!--<span class="radio__box">-->
+                        <!--<span class="radio__state"></span>-->
+                    <!--</span>-->
+                    <!--<span class="radio__label">-->
+                        <!--Checked-->
+                    <!--</span>-->
+            <!--</span>-->
+        <!--</label>-->
+
+        <!--<label class="form__control radio">-->
+            <!--<input name="radio" type="radio" class="radio__input" disabled>-->
+            <!--<span class="radio__inner">-->
+                <!--<span class="radio__box">-->
+                    <!--<span class="radio__state"></span>-->
+                <!--</span>-->
+                <!--<span class="radio__label">-->
+                <!--Disabled-->
+            <!--</span>-->
+            <!--</span>-->
+        <!--</label>-->
+
+        <!--<label class="form__control radio">-->
+            <!--<input name="radio_disabled_checked" type="radio" class="radio__input" checked disabled>-->
+            <!--<span class="radio__inner">-->
+                <!--<span class="radio__box">-->
+                    <!--<span class="radio__state"></span>-->
+                <!--</span>-->
+                <!--<span class="radio__label">-->
+                <!--Checked disabled-->
+            <!--</span>-->
+            <!--</span>-->
+        <!--</label>-->
+    </div>
     </body>
 </html>

@@ -47,15 +47,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    stroke: var(--white);
+    width: 15px;
+    height: 13px;
 }
 
 .checkbox__input:disabled ~ .checkbox__inner .checkbox__state .checkbox__icon {
-    stroke: var(--grey-2);
+    opacity: 0;
 }
 
 .checkbox__input:checked:disabled ~ .checkbox__inner .checkbox__state .checkbox__icon {
-    stroke: var(--white);
+    opacity: 1;
 }
 
 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- Страница чекбокса -->
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="./tabs.css">
+    </head>
+    <body>
+        <div class="tabs">
+            <div class="container">
+                <input class="tabs__control" name="tab" type="radio" id="all-tab" checked>
+                <input class="tabs__control" name="tab" type="radio" id="complex-tab">
+                <input class="tabs__control" name="tab" type="radio" id="simple-tab">
+
+                <div class="tabs__nav">
+                    <label class="tabs__item" for="all-tab">All components</label>
+                    <label class="tabs__item" for="complex-tab">Complex</label>
+                    <label class="tabs__item" for="simple-tab">Simple</label>
+                </div>
+
+                <div class="tabs__content tabs__content_all">
+                    All components
+                </div>
+
+                <div class="tabs__content tabs__content_complex">
+                    Complex
+                </div>
+
+                <div class="tabs__content tabs__content_simple">
+                    Simple
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

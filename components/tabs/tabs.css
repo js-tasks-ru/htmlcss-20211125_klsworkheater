@@ -1,9 +1,7 @@
 .tabs {
-    width: 100%;
-    height: 100%;
 }
 
-.tab__control {
+.tabs__control {
     width: 0;
     height: 0;
 }
@@ -13,6 +11,7 @@
 }
 
 .tabs__item {
+    box-sizing: border-box;
     margin-right: 40px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -21,11 +20,12 @@
     line-height: 24px;
     color: var(--grey-3);
     cursor: pointer;
+    border-bottom: 5px solid transparent;
 }
 
 .tabs__item:hover {
     color: var(--black);
-    border-bottom: 5px solid var(--black);
+    border-color: var(--black);
 }
 
 #all-tab:checked ~ .tabs__nav .tabs__item[for=all-tab],
@@ -34,7 +34,7 @@
 {
     display: block;
     color: var(--black);
-    border-bottom: 5px solid var(--black);
+    border-color: var(--black);
 }
 
 .tabs__content {

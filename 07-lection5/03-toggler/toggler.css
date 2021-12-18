@@ -57,8 +57,7 @@
 
 .toggle__input:checked ~ .toggle__inner .toggle__state {
     background: var(--white);
-    left: 49px;
-    transform: translate(-100%, 0);
+    transform: translate(96%, 0);
 }
 
 .toggle__input:disabled ~ .toggle__inner .toggle__state {
@@ -66,8 +65,6 @@
 }
 
 .toggle__input:checked:disabled ~ .toggle__inner .toggle__state {
-    left: 49px;
-    transform: translate(-100%, 0);
     background: var(--grey-3);
 }
 

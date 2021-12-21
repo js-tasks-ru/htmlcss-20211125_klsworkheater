@@ -1,12 +1,10 @@
 .preview {
     background: var(--grey-5);
     flex-grow: 1;
-    padding: 64px 0;
 }
 
 .preview__container {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px
 }
@@ -18,7 +16,7 @@
 .preview__card {
     display: flex;
     flex-direction: column;
-    width: calc(33.33% - 30px)
+    width: calc(33.33% - 20px)
 }
 
 @media screen and (max-width: 768px) {
@@ -28,11 +26,11 @@
 
     .preview__container {
         padding: 0 16px;
-        gap: 0;
+        gap: 30px;
     }
 
     .preview__card {
-        width: calc(50% - 8px);
+        width: calc(50% - 15px);
         margin-bottom: 23px;
     }
 }

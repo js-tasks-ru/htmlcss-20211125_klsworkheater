@@ -1,18 +1,25 @@
 .tabs {
 }
 
+.tabs__inner {
+    display: flex;
+}
+
 .tabs__control {
     width: 0;
     height: 0;
+    position: absolute;
 }
 
 .tabs__nav {
-    display: flex;
+    padding: 10px 0 0 0;
+    background: var(--white);
 }
 
 .tabs__item {
     box-sizing: border-box;
     margin-right: 40px;
+    padding: 10px 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -42,9 +49,9 @@
     padding: 48px 0;
 }
 
-#all-tab:checked ~ .tabs__content_all,
-#complex-tab:checked ~ .tabs__content_complex,
-#simple-tab:checked ~ .tabs__content_simple
+#all-tab:checked ~ .container .tabs__content_all,
+#complex-tab:checked ~ .container .tabs__content_complex,
+#simple-tab:checked ~ .container .tabs__content_simple
 {
     display: block;
 }
